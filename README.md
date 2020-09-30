@@ -3,7 +3,7 @@ It is coded in python 3.8
 this is the following code
 
 
-import googelmaps
+import googlemaps
 from datetime import datetime
 
 gmaps = googlemaps.Client(key='your client id ')
@@ -14,7 +14,7 @@ geocode_result = gmaps.geocode('1600 Amphitheatre
                                   View, CA')
 
 # Look up an address with reverse geocoding
-reverse_geocode_result = gmaps.reverse_geocode((40.714224, -73.961452))
+reverse_geocode_result = gmaps.reverse_geocode((geo locator co-ordinates of any location you want))
 
 # Request directions via public transit
 now = datetime.now()
